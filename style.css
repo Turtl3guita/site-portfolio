@@ -292,6 +292,7 @@ span {
     font-size: 8rem;
     text-align: center;
     margin: 5rem 0;
+    margin-top: -7rem;
 }
 
 .education{
@@ -773,5 +774,142 @@ span {
     }
     .navbar a {
         font-size: 2rem; /* Ajuste este valor conforme necessário */
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .services-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Isso fará com que os itens sejam centralizados */
+    }
+    .service-box {
+        width: 130%; /* Isso fará com que as caixas tenham 80% da largura do contêiner */
+    }
+    .service-box .service-info{
+        padding: 1.5rem 3rem; /* Ajuste o padding conforme necessário */
+    }
+    .service-info h4{
+        line-height: 1.5; /* Ajuste o line-height conforme necessário */
+    }
+    .testimonial-item h2 {
+        font-size: 3rem; /* Ajuste este valor conforme necessário */
+    }
+    .testimonials .heading {
+        font-size: 5.5rem; /* Ajuste este valor conforme necessário */
+    }
+    .education .heading {
+        font-size: 5.5rem; /* Ajuste este valor conforme necessário */
+    }
+    .timeline-items::before {
+        height: calc(200% - 20px); /* Ajuste este valor conforme necessário */
+    }
+    .home-content h1 {
+        margin-top: -4rem; /* Ajuste este valor conforme necessário */
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .services-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Isso fará com que os itens sejam centralizados */
+    }
+    .service-box {
+        width: 130%; /* Isso fará com que as caixas tenham 80% da largura do contêiner */
+    }
+    .service-box .service-info{
+        padding: 1.5rem 3rem; /* Ajuste o padding conforme necessário */
+    }
+    .service-info h4{
+        line-height: 1.5; /* Ajuste o line-height conforme necessário */
+    }
+    .service-info p {
+        margin-top: 2rem; /* Ajuste este valor conforme necessário */
+    }
+    .testimonial-item h2 {
+        font-size: 3rem; /* Ajuste este valor conforme necessário */
+    }
+    .testimonials .heading {
+        font-size: 5.5rem; /* Ajuste este valor conforme necessário */
+    }
+    .education .heading {
+        font-size: 5.5rem; /* Ajuste este valor conforme necessário */
+    }
+    .timeline-items::before {
+        height: calc(170% - 20px); /* Ajuste este valor conforme necessário */
+    }
+    .home-content h1 {
+        margin-top: -4rem; /* Ajuste este valor conforme necessário */
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .services-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Isso fará com que os itens sejam centralizados */
+    }
+    .service-box {
+        width: 130%; /* Isso fará com que as caixas tenham 80% da largura do contêiner */
+    }
+    .service-box .service-info{
+        padding: 1.5rem 3rem; /* Ajuste o padding conforme necessário */
+    }
+    .service-info h4{
+        line-height: 1.5; /* Ajuste o line-height conforme necessário */
+    }
+    .service-info p {
+        margin-top: 2rem; /* Ajuste este valor conforme necessário */
+    }
+    .testimonial-item h2 {
+        font-size: 3rem; /* Ajuste este valor conforme necessário */
+    }
+    .testimonials .heading {
+        font-size: 5.5rem; /* Ajuste este valor conforme necessário */
+    }
+    .education .heading {
+        font-size: 5.5rem; /* Ajuste este valor conforme necessário */
+    }
+    .timeline-items::before {
+        height: calc(140% - 20px); /* Ajuste este valor conforme necessário */
+    }
+    .home-content h1 {
+        margin-top: -4rem; /* Ajuste este valor conforme necessário */
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .services-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Isso fará com que os itens sejam centralizados */
+    }
+    .service-box {
+        width: 130%; /* Isso fará com que as caixas tenham 80% da largura do contêiner */
+    }
+    .service-box .service-info{
+        padding: 1.5rem 3rem; /* Ajuste o padding conforme necessário */
+    }
+    .service-info h4{
+        line-height: 1.5; /* Ajuste o line-height conforme necessário */
+    }
+    .service-info p {
+        margin-top: 2rem; /* Ajuste este valor conforme necessário */
+    }
+    .testimonial-item h2 {
+        font-size: 3rem; /* Ajuste este valor conforme necessário */
+    }
+    .testimonials .heading {
+        font-size: 5.5rem; /* Ajuste este valor conforme necessário */
+    }
+    .education .heading {
+        font-size: 5.5rem; /* Ajuste este valor conforme necessário */
+    }
+    .timeline-items::before {
+        height: calc(140% - 20px); /* Ajuste este valor conforme necessário */
+    }
+    .home-content h1 {
+        margin-top: -4rem; /* Ajuste este valor conforme necessário */
     }
 }
