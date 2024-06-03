@@ -737,7 +737,7 @@ span {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
     body {
         font-size: 1.6rem;
     }
@@ -777,7 +777,16 @@ span {
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 360px) and (max-width: 379px) {
+    .header {
+        padding: 3rem 5%; /* Ajuste o padding conforme necessário */
+    }
+    .logo {
+        font-size: 1.5rem; /* Ajuste o tamanho da fonte conforme necessário */
+    }
+    #menu-icon {
+        font-size: 3rem; /* Ajuste o tamanho da fonte conforme necessário */
+    }
     .services-container {
         display: flex;
         flex-direction: column;
@@ -801,15 +810,56 @@ span {
     .education .heading {
         font-size: 5.5rem; /* Ajuste este valor conforme necessário */
     }
-    .timeline-items::before {
-        height: calc(200% - 20px); /* Ajuste este valor conforme necessário */
+    .education .timeline-items::before {
+        height: calc(220% - 20px); /* Ajuste este valor conforme necessário */
     }
     .home-content h1 {
         margin-top: -4rem; /* Ajuste este valor conforme necessário */
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 381px) and (max-width: 399px) {
+    .header {
+        padding: 3rem 5%; /* Ajuste o padding conforme necessário */
+    }
+    .logo {
+        font-size: 1.5rem; /* Ajuste o tamanho da fonte conforme necessário */
+    }
+    #menu-icon {
+        font-size: 3rem; /* Ajuste o tamanho da fonte conforme necessário */
+    }
+    .services-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Isso fará com que os itens sejam centralizados */
+    }
+    .service-box {
+        width: 130%; /* Isso fará com que as caixas tenham 80% da largura do contêiner */
+    }
+    .service-box .service-info{
+        padding: 1.5rem 3rem; /* Ajuste o padding conforme necessário */
+    }
+    .service-info h4{
+        line-height: 1.5; /* Ajuste o line-height conforme necessário */
+    }
+    .testimonial-item h2 {
+        font-size: 3rem; /* Ajuste este valor conforme necessário */
+    }
+    .testimonials .heading {
+        font-size: 5.5rem; /* Ajuste este valor conforme necessário */
+    }
+    .education .heading {
+        font-size: 5.5rem; /* Ajuste este valor conforme necessário */
+    }
+    .education .timeline-items::before {
+        height: calc(190% - 20px); /* Ajuste este valor conforme necessário */
+    }
+    .home-content h1 {
+        margin-top: -4rem; /* Ajuste este valor conforme necessário */
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 419px) {
     .services-container {
         display: flex;
         flex-direction: column;
@@ -836,15 +886,15 @@ span {
     .education .heading {
         font-size: 5.5rem; /* Ajuste este valor conforme necessário */
     }
-    .timeline-items::before {
-        height: calc(170% - 20px); /* Ajuste este valor conforme necessário */
+    .education .timeline-items::before {
+        height: calc(160% - 20px); /* Ajuste este valor conforme necessário */
     }
     .home-content h1 {
         margin-top: -4rem; /* Ajuste este valor conforme necessário */
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (min-width: 420px) and (max-width: 439px) {
     .services-container {
         display: flex;
         flex-direction: column;
@@ -871,15 +921,15 @@ span {
     .education .heading {
         font-size: 5.5rem; /* Ajuste este valor conforme necessário */
     }
-    .timeline-items::before {
-        height: calc(140% - 20px); /* Ajuste este valor conforme necessário */
+    .education .timeline-items::before {
+        height: calc(160% - 20px); /* Ajuste este valor conforme necessário */
     }
     .home-content h1 {
         margin-top: -4rem; /* Ajuste este valor conforme necessário */
     }
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (min-width: 440px) and (max-width: 599px) {
     .services-container {
         display: flex;
         flex-direction: column;
